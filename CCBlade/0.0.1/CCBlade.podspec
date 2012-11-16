@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hiepnd/CCBlade.git", :commit => "58b609be4617681707e5c1cd599dbc05dd56a24d" }
   s.platform     = :ios, '5.0'
   s.source_files = '*.{h,m}'
-  s.requires_arc = true
 
   ## External Dependencies
   s.dependency 'cocos2d', '2.0.0'
